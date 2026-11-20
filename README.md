@@ -1,8 +1,8 @@
 <p align="center">
   <a href="https://github.com/qrcode-ai-com/qrcode-barcode-scanner-rust">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/qrcode-ai-com/.github/main/profile/assets/banner-node-dark.gif?v=5ccb9970e48c">
-      <img src="https://raw.githubusercontent.com/qrcode-ai-com/.github/main/profile/assets/banner-node-light.gif?v=3cddfebb8fa2" alt="QR Code &amp; Barcode Scanner for Node.js: the Node.js logo, the quick start in JavaScript, and a QR code and a barcode being read" width="100%">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/qrcode-ai-com/.github/main/profile/assets/banner-obsidian-dark.gif?v=ce3fa87b48a7">
+      <img src="https://raw.githubusercontent.com/qrcode-ai-com/.github/main/profile/assets/banner-obsidian-light.gif?v=27c935970766" alt="QR Code &amp; Barcode Scanner for Obsidian: the Obsidian logo, the commands that scan an image of a note, and a QR code and a barcode being read" width="100%">
     </picture>
   </a>
 </p>
@@ -44,7 +44,7 @@ The [QR code scanner](https://qrcode-ai.com/en-US/qr-code-scanner) and the [barc
 
 To make a test image, encode a known text with the [QR code generator](https://qrcode-ai.com/en-US/qr-code-generator) or the [barcode generator](https://qrcode-ai.com/en-US/barcode-generator), save the picture in your vault and embed it in a note. The plugin should give back exactly the text you encoded, leading zeros included.
 
-Its own repository, [`qrcode-ai-com/qrcode-barcode-scanner-obsidian`](https://github.com/qrcode-ai-com/qrcode-barcode-scanner-obsidian), has been public since 20 November 2026, and its tests pass there. The plugin is not listed in Obsidian's community plugins yet. Until it is, build it from this folder and install it by hand, as written below.
+Its own repository, [`qrcode-ai-com/qrcode-barcode-scanner-obsidian`](https://github.com/qrcode-ai-com/qrcode-barcode-scanner-obsidian), has been public since 20 November 2026, and its tests pass there. Since 20 November 2026 the plugin is listed in [Obsidian's community plugins](https://community.obsidian.md/plugins/qrcode-barcode-scanner), version 1.0.1, under the QR Code AI organization. To run a change before it is released, build it from this folder and install it by hand, as written below.
 
 ## How it works
 
@@ -65,7 +65,9 @@ The picture shows the three steps of the package route. In Obsidian they are:
 
 ## Install
 
-Build `main.js` with Node.js 22 or later, in this folder: `integrations/obsidian` of the engine repository, or the root of the plugin repository.
+In Obsidian, open **Settings → Community plugins**, choose **Browse**, search for **QR Code and Barcode Scanner**, then install and enable it. Obsidian downloads the release files of the plugin's repository.
+
+To install a build of this folder instead, build `main.js` with Node.js 22 or later, in this folder: `integrations/obsidian` of the engine repository, or the root of the plugin repository.
 
 ```sh
 npm ci
@@ -73,8 +75,6 @@ npm run build
 ```
 
 Then copy `main.js`, `manifest.json` and `styles.css` into the folder `.obsidian/plugins/qrcode-barcode-scanner/` of your vault. Restart Obsidian, open **Settings → Community plugins** and turn on **QR Code and Barcode Scanner**.
-
-Once the plugin is listed, you will find it in **Settings → Community plugins → Browse** under the same name.
 
 ## Use
 
@@ -169,7 +169,7 @@ python3 scripts/stage-obsidian-satellite.py stage --out /absolute/empty/folder
 python3 scripts/stage-obsidian-satellite.py verify /absolute/empty/folder
 ```
 
-The stage reads one commit, checks the manifest against the community directory rules and writes `SOURCE.json` with the sha256 of every file. The workflows of [mirror/](https://github.com/qrcode-ai-com/qrcode-barcode-scanner-rust/blob/e5c48668149332219d903208e1882d27e7cab063/integrations/obsidian/mirror/test.yml) become the repository's own: its tests, and a release that a tag such as `1.0.0` starts. That release builds `main.js`, runs the tests and opens a draft with `main.js`, `manifest.json` and `styles.css`.
+The stage reads one commit, checks the manifest against the community directory rules and writes `SOURCE.json` with the sha256 of every file. The workflows of [mirror/](https://github.com/qrcode-ai-com/qrcode-barcode-scanner-rust/blob/700ae222b16a74fa0b0f60488808974d35d62333/integrations/obsidian/mirror/test.yml) become the repository's own: its tests, and a release that a tag such as `1.0.0` starts. That release builds `main.js`, runs the tests and opens a draft with `main.js`, `manifest.json` and `styles.css`.
 
 ## Licenses of what you install
 
