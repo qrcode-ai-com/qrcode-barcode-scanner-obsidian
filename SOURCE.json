@@ -2,27 +2,27 @@
   "schema": "qrscan-obsidian-stage/1",
   "engine": {
     "repository": "https://github.com/qrcode-ai-com/qrcode-barcode-scanner-rust",
-    "revision": "700ae222b16a74fa0b0f60488808974d35d62333"
+    "revision": "86896fe22f84d279ec33d181a347729e02a1ca01"
   },
   "files": {
-    ".github/workflows/release.yml": "de1a57dd6eecf577969a47a8cf3c87978da69a91943684817385baf0d176e256",
+    ".github/workflows/release.yml": "e5049277b9ef244c1e9a0ff59e315bc05a2b8df790cf964953950ead281b1ad5",
     ".github/workflows/test.yml": "896e2b359b4b49df49634eea3645cc58478c53b56a82b941ed4bcc09a10ccbfc",
     ".gitignore": "35657a1926abe79ee4b962d7c23f83edb9b9742bc02d2bc2620eefb4c9fbecc9",
     "ENGINE-LICENSE": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef",
     "ENGINE-LICENSE-APACHE-2.0": "865b180617725f20be71aa305e82efaa8e56b3c6936d68089bc63cf91cb23087",
     "ENGINE-THIRD-PARTY.md": "e3c3e5d7b5f2e2d880fa39216658df0f84f0de297dd211b65d38373e8e7c6a4a",
     "LICENSE": "f4d433b564117e27b6aaf8f2902f2200368f57bb2d8286129c2f1774c000295a",
-    "README.md": "6431212c73884b68af6c27c462b37ac7f7a19d17e91e889a73f567fc5c0bef5e",
-    "manifest.json": "28be721adf85565deeb16976fe8f22cd713554e40d06641bd367228e8b9f8c35",
-    "package-lock.json": "26d5839672301dbfa5626fda5171ec8a163f18677329551795042698a84b09aa",
-    "package.json": "aeafe8b2fa79e49520d735910b73f1349e7dc487e83cb9a80abfc72aea793ff1",
+    "README.md": "333606007385b6abbc765760efcc165f822f72e06d84189a749d5f8fd960a97c",
+    "manifest.json": "07cf481bc802ccce2a6e96bbbf136a63423ca992bcd02b497ab0636e8b207639",
+    "package-lock.json": "13a39110a366a8320505f9ae5ad79de2745b174f4c5b39b58089abba7af4e4a4",
+    "package.json": "e24619d6da1153edd28b091d666e68089f917a2bb09fb82e770ccf70e7ae2335",
     "scripts/build.mjs": "a08669b95fb4062ffcbcd82987078f12868c56fbb2d0436aa0dbedc853bc6b41",
     "src/format.ts": "a76ad5f5b5c10afd54a8e1e3cfe5d7042ab4c74c77a91cc6db76549cedbe2bf2",
     "src/images.ts": "57b24f0ee3a6699ce4551121ab2c2f675651bf29fb85af8311fc5d426eb332fb",
     "src/main.ts": "92bdc5a554a9f35f38ae2aa6cee1858f7778022bf33ed8ec0c436a7c40fa06f3",
-    "src/modals.ts": "27387917254225c3212e8d8c792850ee039d4b646081efa54c9b561a6de83f79",
+    "src/modals.ts": "6e9cf3133cfc975c0b92466e931112ee385c1275427987352b001894fe49f72e",
     "src/scanner.ts": "4867e059c09bc30eef03577fb5b629f10de33995e08203ab5c9442ec977817cc",
-    "src/settings.ts": "c749c40b110f60fa1d429980b56419ecb050939955dd84eced35d359a1432447",
+    "src/settings.ts": "ae126048a13a0a6b1e94e9ee71acde2f0c1e6d716abb9cc78e86e48a9a4fe2f8",
     "src/wasm.d.ts": "dab6d21317bd185cc342a30d98fa4ffb271cc34ab3eca273a23d18ec5aba6080",
     "styles.css": "f7972c3feb25bb1b1693ac91cb329f4b7702924241d637ed3f5b6ebfa6654e76",
     "test/browser.test.mjs": "1a0016084349cfa2e3984f8088a21cc26633b85b7bd7f1543e64994a86d7ad78",
@@ -30,9 +30,9 @@
     "test/format.test.mjs": "bd78227c0ceefcaabcbe80566c38bc8e80939bc5f2802060bf83a5766085c4db",
     "test/helpers.mjs": "1b3771097b38bdd1e7039b689b6cc6295a1a4da09d43f24f65f6e8763bcc1e69",
     "test/obsidian-mock.mjs": "79a13f073a7621efbfe466f24412e2a15490664cb284e364725160479e5345eb",
-    "test/plugin.test.mjs": "3c1cd831daacfe384cc029e339d1776c7f834ebe550a8850f65f4217909f53c3",
+    "test/plugin.test.mjs": "f6874c40d07a4e0148940f197a549537e9cea40e7be8e7ec4c9510383089fb02",
     "test/release.test.mjs": "cfcae8e7c72a8a9181876729a2affe83d0adbf6de1b4c6a56a7e1070220bb760",
     "tsconfig.json": "60fa3f53369435f9242133944766bac04e6ca4a8ea7e3f31d5af3ebb36722a62",
-    "versions.json": "00fe0cb146febd56e8b1f127172307e443d1afa5c134d03cf1045d78fca67b62"
+    "versions.json": "eed8faa00b361d95500470964d35888cf77a835a484562ff77695df6ee1eddc6"
   }
 }
