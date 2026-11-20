@@ -44,7 +44,7 @@ The [QR code scanner](https://qrcode-ai.com/en-US/qr-code-scanner) and the [barc
 
 To make a test image, encode a known text with the [QR code generator](https://qrcode-ai.com/en-US/qr-code-generator) or the [barcode generator](https://qrcode-ai.com/en-US/barcode-generator), save the picture in your vault and embed it in a note. The plugin should give back exactly the text you encoded, leading zeros included.
 
-The plugin is not listed in Obsidian's community plugins yet. Until it is, build it from this folder and install it by hand, as written below.
+Its own repository, [`qrcode-ai-com/qrcode-barcode-scanner-obsidian`](https://github.com/qrcode-ai-com/qrcode-barcode-scanner-obsidian), has been public since 20 November 2026, and its tests pass there. The plugin is not listed in Obsidian's community plugins yet. Until it is, build it from this folder and install it by hand, as written below.
 
 ## How it works
 
@@ -169,7 +169,7 @@ python3 scripts/stage-obsidian-satellite.py stage --out /absolute/empty/folder
 python3 scripts/stage-obsidian-satellite.py verify /absolute/empty/folder
 ```
 
-The stage reads one commit, checks the manifest against the community directory rules and writes `SOURCE.json` with the sha256 of every file. The workflows of [mirror/](https://github.com/qrcode-ai-com/qrcode-barcode-scanner-rust/blob/eb18fee880cf37694502b1da416d5cb931729592/integrations/obsidian/mirror/test.yml) become the repository's own: its tests, and a release that a tag such as `1.0.0` starts. That release builds `main.js`, runs the tests and opens a draft with `main.js`, `manifest.json` and `styles.css`.
+The stage reads one commit, checks the manifest against the community directory rules and writes `SOURCE.json` with the sha256 of every file. The workflows of [mirror/](https://github.com/qrcode-ai-com/qrcode-barcode-scanner-rust/blob/e5c48668149332219d903208e1882d27e7cab063/integrations/obsidian/mirror/test.yml) become the repository's own: its tests, and a release that a tag such as `1.0.0` starts. That release builds `main.js`, runs the tests and opens a draft with `main.js`, `manifest.json` and `styles.css`.
 
 ## Licenses of what you install
 

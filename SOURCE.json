@@ -2,7 +2,7 @@
   "schema": "qrscan-obsidian-stage/1",
   "engine": {
     "repository": "https://github.com/qrcode-ai-com/qrcode-barcode-scanner-rust",
-    "revision": "eb18fee880cf37694502b1da416d5cb931729592"
+    "revision": "e5c48668149332219d903208e1882d27e7cab063"
   },
   "files": {
     ".github/workflows/release.yml": "de1a57dd6eecf577969a47a8cf3c87978da69a91943684817385baf0d176e256",
@@ -12,10 +12,10 @@
     "ENGINE-LICENSE-APACHE-2.0": "865b180617725f20be71aa305e82efaa8e56b3c6936d68089bc63cf91cb23087",
     "ENGINE-THIRD-PARTY.md": "e3c3e5d7b5f2e2d880fa39216658df0f84f0de297dd211b65d38373e8e7c6a4a",
     "LICENSE": "f4d433b564117e27b6aaf8f2902f2200368f57bb2d8286129c2f1774c000295a",
-    "README.md": "3d170599ce55be54bae02bb2ffb2150afd8b857cbf36124d48e04a7a61d622d0",
-    "manifest.json": "dd265dc44c5033c3632f609617257e4af7203594b5ba6b3ee54dbf47b327882b",
-    "package-lock.json": "600dc0344d35ae0c567bef3a09b045fdf42648d00910cd85f8021f73d9ef179d",
-    "package.json": "4b18c59673e418e1cf8beb2c95e7e37eddd545a62fa4c3115a0d3845fd3e7730",
+    "README.md": "930d71718fc45cd652b1f074a43c2173fc4333b590d9ef194225fd3f2da37362",
+    "manifest.json": "28be721adf85565deeb16976fe8f22cd713554e40d06641bd367228e8b9f8c35",
+    "package-lock.json": "26d5839672301dbfa5626fda5171ec8a163f18677329551795042698a84b09aa",
+    "package.json": "aeafe8b2fa79e49520d735910b73f1349e7dc487e83cb9a80abfc72aea793ff1",
     "scripts/build.mjs": "a08669b95fb4062ffcbcd82987078f12868c56fbb2d0436aa0dbedc853bc6b41",
     "src/format.ts": "a76ad5f5b5c10afd54a8e1e3cfe5d7042ab4c74c77a91cc6db76549cedbe2bf2",
     "src/images.ts": "57b24f0ee3a6699ce4551121ab2c2f675651bf29fb85af8311fc5d426eb332fb",
@@ -31,8 +31,8 @@
     "test/helpers.mjs": "1b3771097b38bdd1e7039b689b6cc6295a1a4da09d43f24f65f6e8763bcc1e69",
     "test/obsidian-mock.mjs": "79a13f073a7621efbfe466f24412e2a15490664cb284e364725160479e5345eb",
     "test/plugin.test.mjs": "3c1cd831daacfe384cc029e339d1776c7f834ebe550a8850f65f4217909f53c3",
-    "test/release.test.mjs": "f75c4f4bd7606c9469fc16b94d73bc17cafbb16bb3263166bd3d9870c87a6024",
+    "test/release.test.mjs": "cfcae8e7c72a8a9181876729a2affe83d0adbf6de1b4c6a56a7e1070220bb760",
     "tsconfig.json": "60fa3f53369435f9242133944766bac04e6ca4a8ea7e3f31d5af3ebb36722a62",
-    "versions.json": "c3f35dde2dce7e66676691e1d93ce1095ca5672caada559afa86506c8441dc62"
+    "versions.json": "00fe0cb146febd56e8b1f127172307e443d1afa5c134d03cf1045d78fca67b62"
   }
 }
