@@ -140,6 +140,21 @@ Codes of different formats in one image come back in one report.
 
 The plugin reads PNG, JPEG, WebP and GIF files. The engine's [supported formats](https://github.com/qrcode-ai-com/qrcode-barcode-scanner-rust#supported-formats) section states the known limits.
 
+## The same engine in other runtimes
+
+<!-- qrcode-ai-readme-media:v1 -->
+<p align="center">
+  <a href="https://github.com/qrcode-ai-com/qrcode-barcode-scanner-rust#get-started">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/qrcode-ai-com/qrcode-barcode-scanner-rust/main/docs/assets/brand/runtimes-dark.png?v=57c63428574b">
+      <img src="https://raw.githubusercontent.com/qrcode-ai-com/qrcode-barcode-scanner-rust/main/docs/assets/brand/runtimes-light.png?v=6dbd5a8cf5ba" alt="One engine in the language you write: Rust on crates.io, Node.js and the browser on npm, Python on PyPI, Go, PHP, and the qrscan command line" width="100%">
+    </picture>
+  </a>
+</p>
+<!-- /qrcode-ai-readme-media:v1 -->
+
+This plugin embeds the browser package. The Rust, Node.js, browser and Python packages hold the engine. The Go and PHP packages hold no decoder: each one starts `qrscan` and hands you its report. Every route is listed in the [scanner repository](https://github.com/qrcode-ai-com/qrcode-barcode-scanner-rust).
+
 ## On your device, on desktop and mobile
 
 The plugin makes no network request, needs no account and collects nothing. The engine runs inside Obsidian, from the module embedded in `main.js`, so the plugin works offline.
@@ -171,7 +186,7 @@ python3 scripts/stage-obsidian-satellite.py stage --out /absolute/empty/folder
 python3 scripts/stage-obsidian-satellite.py verify /absolute/empty/folder
 ```
 
-The stage reads one commit, checks the manifest against the community directory rules and writes `SOURCE.json` with the sha256 of every file. The workflows of [mirror/](https://github.com/qrcode-ai-com/qrcode-barcode-scanner-rust/blob/86896fe22f84d279ec33d181a347729e02a1ca01/integrations/obsidian/mirror/test.yml) become the repository's own: its tests, and a release that a tag such as `1.0.0` starts. That release builds `main.js`, runs the tests, attests the build provenance of `main.js` and `styles.css`, and opens a draft with `main.js`, `manifest.json` and `styles.css`. To check a downloaded file against its attestation: `gh attestation verify main.js --repo qrcode-ai-com/qrcode-barcode-scanner-obsidian`.
+The stage reads one commit, checks the manifest against the community directory rules and writes `SOURCE.json` with the sha256 of every file. The workflows of [mirror/](https://github.com/qrcode-ai-com/qrcode-barcode-scanner-rust/blob/6dc99a4c216388bf5b8284f89fe6f8e86156dfa7/integrations/obsidian/mirror/test.yml) become the repository's own: its tests, and a release that a tag such as `1.0.0` starts. That release builds `main.js`, runs the tests, attests the build provenance of `main.js` and `styles.css`, and opens a draft with `main.js`, `manifest.json` and `styles.css`. To check a downloaded file against its attestation: `gh attestation verify main.js --repo qrcode-ai-com/qrcode-barcode-scanner-obsidian`.
 
 ## Licenses of what you install
 

@@ -2,7 +2,7 @@
   "schema": "qrscan-obsidian-stage/1",
   "engine": {
     "repository": "https://github.com/qrcode-ai-com/qrcode-barcode-scanner-rust",
-    "revision": "86896fe22f84d279ec33d181a347729e02a1ca01"
+    "revision": "6dc99a4c216388bf5b8284f89fe6f8e86156dfa7"
   },
   "files": {
     ".github/workflows/release.yml": "e5049277b9ef244c1e9a0ff59e315bc05a2b8df790cf964953950ead281b1ad5",
@@ -12,7 +12,7 @@
     "ENGINE-LICENSE-APACHE-2.0": "865b180617725f20be71aa305e82efaa8e56b3c6936d68089bc63cf91cb23087",
     "ENGINE-THIRD-PARTY.md": "e3c3e5d7b5f2e2d880fa39216658df0f84f0de297dd211b65d38373e8e7c6a4a",
     "LICENSE": "f4d433b564117e27b6aaf8f2902f2200368f57bb2d8286129c2f1774c000295a",
-    "README.md": "333606007385b6abbc765760efcc165f822f72e06d84189a749d5f8fd960a97c",
+    "README.md": "a4ea0fb6130fd0c946a532e3d00b78ca64e28cbba9754437eaeb900ddbbcbc35",
     "manifest.json": "07cf481bc802ccce2a6e96bbbf136a63423ca992bcd02b497ab0636e8b207639",
     "package-lock.json": "13a39110a366a8320505f9ae5ad79de2745b174f4c5b39b58089abba7af4e4a4",
     "package.json": "e24619d6da1153edd28b091d666e68089f917a2bb09fb82e770ccf70e7ae2335",
