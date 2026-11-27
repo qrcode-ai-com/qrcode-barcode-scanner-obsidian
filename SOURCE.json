@@ -2,7 +2,7 @@
   "schema": "qrscan-obsidian-stage/1",
   "engine": {
     "repository": "https://github.com/qrcode-ai-com/qrcode-barcode-scanner-rust",
-    "revision": "8b91a628a66fb7ce8817a40116f208f607ef74f6"
+    "revision": "ea14f8199383327faf803b377146086b459f18a2"
   },
   "files": {
     ".github/workflows/release.yml": "e5049277b9ef244c1e9a0ff59e315bc05a2b8df790cf964953950ead281b1ad5",
@@ -12,10 +12,10 @@
     "ENGINE-LICENSE-APACHE-2.0": "865b180617725f20be71aa305e82efaa8e56b3c6936d68089bc63cf91cb23087",
     "ENGINE-THIRD-PARTY.md": "542c2d99262bf4215de4de3d7e1a6e8b065b934b61ccb650dd82d2c4f96a71ab",
     "LICENSE": "f4d433b564117e27b6aaf8f2902f2200368f57bb2d8286129c2f1774c000295a",
-    "README.md": "42fc995370a512bc7e9f8c89789f997d3acda7bf5fb0b8675791ac990b76bc31",
-    "manifest.json": "0be27312bc8ea5cc7d0862273e2b18bce2fd7dfb0360a0f409b2239b6e9dd04b",
-    "package-lock.json": "470a30ab26e44ee56714ee8717a8a309c8f51040f440903d451ac183bb897754",
-    "package.json": "f0fc331d549ed3bc2373e65f9a369b6fb223c5cf6a10ba67c2dae2ad0116a653",
+    "README.md": "71aea4efb1cb207f4fdf9dc8911acd967742da20cf684146336140e35b2a6f3b",
+    "manifest.json": "88569052e5a396bd599dd03cd764f88f86aea7fb117eab3bcf0eb942b7c1b939",
+    "package-lock.json": "253622a7642be5a7977e39107fae68c11751069833a8efb3721250849c7c5ace",
+    "package.json": "84ee7f467a262498a37bee197fc845494de0ea814d50ac4c73831f69c63fec1a",
     "scripts/build.mjs": "a08669b95fb4062ffcbcd82987078f12868c56fbb2d0436aa0dbedc853bc6b41",
     "src/format.ts": "a76ad5f5b5c10afd54a8e1e3cfe5d7042ab4c74c77a91cc6db76549cedbe2bf2",
     "src/images.ts": "57b24f0ee3a6699ce4551121ab2c2f675651bf29fb85af8311fc5d426eb332fb",
@@ -33,6 +33,6 @@
     "test/plugin.test.mjs": "f6874c40d07a4e0148940f197a549537e9cea40e7be8e7ec4c9510383089fb02",
     "test/release.test.mjs": "0aa9f1440e32398c2bdf7a0175ac7819fd9269b52ae32c5547f22f5aa0a002f1",
     "tsconfig.json": "60fa3f53369435f9242133944766bac04e6ca4a8ea7e3f31d5af3ebb36722a62",
-    "versions.json": "85f59ee4ca9396a6bc6d3a9769c4d3ad1e87ce17cbd1d6f5c44c86bbcea7f5f4"
+    "versions.json": "46c5814aa5d5287c0827c3b2b5ca27b2d0bcfcf1b62ea156a358e405d9bbd71d"
   }
 }
